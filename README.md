@@ -59,7 +59,7 @@
         document.getElementById('passwordForm').addEventListener('submit', function(event) {
             event.preventDefault();
             const password = document.getElementById('password').value;
-            const correctPassword = '12345'; // Remplacez par le mot de passe désiré
+            const correctPassword = '0401'; // Remplacez par le mot de passe désiré
 
             if (password === correctPassword) {
                 window.location.href = 'page-secrete.html'; // Redirige vers une page protégée
